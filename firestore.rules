@@ -1,0 +1,64 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn(){ return request.auth != null; }
+    function uid(){ return request.auth.uid; }
+    function role(){ return signedIn() ? request.auth.token.role : null; }
+    function staff(){ return role() in ['super_admin','content_admin','competition_admin','moderator','analytics_admin']; }
+    function superAdmin(){ return role() == 'super_admin'; }
+    function groupExists(groupId){ return groupId != null && exists(/databases/$(database)/documents/groups/$(groupId)); }
+    function isMember(groupId){ return signedIn() && groupExists(groupId) && uid() in get(/databases/$(database)/documents/groups/$(groupId)).data.memberUids; }
+
+    match /users/{userId} {
+      allow read: if signedIn() && (uid() == userId || staff());
+      allow create: if signedIn() && uid() == userId && request.resource.data.uid == uid() && !request.resource.data.keys().hasAny(['role','adminRole','isAdmin']);
+      allow update: if signedIn() && uid() == userId && request.resource.data.uid == resource.data.uid && !request.resource.data.diff(resource.data).changedKeys().hasAny(['role','adminRole','isAdmin']);
+      allow delete: if superAdmin();
+    }
+
+    match /curricula/{id} { allow read: if signedIn(); allow create, update, delete: if staff(); }
+    match /institutions/{id} { allow read: if signedIn(); allow create, update, delete: if staff(); }
+    match /institutionTypes/{id} { allow read: if signedIn(); allow create, update, delete: if staff(); }
+    match /faculties/{id} { allow read: if signedIn(); allow create, update, delete: if staff(); }
+    match /departments/{id} { allow read: if signedIn(); allow create, update, delete: if staff(); }
+
+    match /resources/{id} {
+      allow read: if signedIn() && (resource.data.status in ['approved','published'] || resource.data.ownerUid == uid() || staff()) && (
+        resource.data.ownerUid == uid() || staff() || resource.data.visibility == 'global' || resource.data.pathKey == get(/databases/$(database)/documents/users/$(uid())).data.academicPathKey || (resource.data.visibility == 'group' && isMember(resource.data.groupId)) || !resource.data.keys().hasAny(['pathKey'])
+      );
+      allow create: if signedIn() && request.resource.data.ownerUid == uid() && request.resource.data.status in ['draft','pending'];
+      allow update, delete: if signedIn() && (resource.data.ownerUid == uid() || staff());
+    }
+    match /materials/{id} { allow read: if signedIn(); allow create, update, delete: if staff(); }
+
+    match /tasks/{id} {
+      allow read: if signedIn() && (resource.data.ownerUid == uid() || (resource.data.groupId != null && isMember(resource.data.groupId)) || resource.data.visibility == 'public' || staff());
+      allow create: if signedIn() && request.resource.data.ownerUid == uid();
+      allow update, delete: if signedIn() && (resource.data.ownerUid == uid() || staff());
+    }
+    match /projects/{id} { allow read: if signedIn() && (uid() in resource.data.members || staff()); allow create: if signedIn() && request.resource.data.ownerUid == uid() && uid() in request.resource.data.members; allow update, delete: if signedIn() && (resource.data.ownerUid == uid() || staff()); }
+    match /groups/{id} { allow read: if signedIn() && (uid() in resource.data.memberUids || staff()); allow create: if signedIn() && request.resource.data.ownerUid == uid() && uid() in request.resource.data.memberUids && request.resource.data.memberUids.size() <= 20; allow update: if signedIn() && (resource.data.ownerUid == uid() || staff()) && request.resource.data.memberUids.size() <= 20 && request.resource.data.ownerUid == resource.data.ownerUid; allow delete: if signedIn() && (resource.data.ownerUid == uid() || staff()); }
+    match /messages/{id} { allow read: if signedIn() && ((resource.data.groupId != null && isMember(resource.data.groupId)) || uid() in resource.data.memberUids || staff()); allow create: if signedIn() && ((request.resource.data.groupId != null && isMember(request.resource.data.groupId)) || uid() in request.resource.data.memberUids) && request.resource.data.senderUid == uid(); allow update, delete: if signedIn() && (resource.data.senderUid == uid() || staff()); }
+    match /team_chat/{id} { allow read: if signedIn() && (resource.data.groupId == null || isMember(resource.data.groupId) || resource.data.senderUid == uid() || staff()); allow create: if signedIn() && (request.resource.data.groupId == null || isMember(request.resource.data.groupId)) && request.resource.data.senderUid == uid(); allow update, delete: if signedIn() && (resource.data.senderUid == uid() || staff()); }
+    match /exams/{id} { allow read: if signedIn() && (resource.data.visibility == 'public' || resource.data.ownerUid == uid() || (resource.data.visibility == 'group' && isMember(resource.data.groupId)) || staff()); allow create: if signedIn() && request.resource.data.ownerUid == uid() && request.resource.data.visibility in ['public','group','private']; allow update, delete: if signedIn() && (resource.data.ownerUid == uid() || staff()); }
+    match /examAttempts/{id} { allow read: if signedIn() && (resource.data.userUid == uid() || staff()); allow create: if signedIn() && request.resource.data.userUid == uid(); allow update, delete: if signedIn() && (resource.data.userUid == uid() || staff()); }
+    match /flashcards/{id} { allow read: if signedIn() && (resource.data.userUid == uid() || staff()); allow create: if signedIn() && request.resource.data.userUid == uid(); allow update, delete: if signedIn() && (resource.data.userUid == uid() || staff()); }
+    match /notifications/{id} { allow read: if signedIn() && (resource.data.targetUid == uid() || staff()); allow create: if signedIn() && (request.resource.data.targetUid == uid() || staff()); allow update, delete: if signedIn() && (resource.data.targetUid == uid() || staff()); }
+    match /competitions/{id} { allow read: if signedIn() && (resource.data.visibility == 'public' || staff() || resource.data.ownerUid == uid() || (resource.data.groupId != null && isMember(resource.data.groupId))); allow create, update, delete: if staff() || (signedIn() && request.resource.data.ownerUid == uid() && request.resource.data.status == 'draft'); }
+    match /challenges/{id} { allow read: if signedIn() && (resource.data.createdByUid == uid() || resource.data.fromUid == uid() || resource.data.toUid == uid() || (resource.data.groupId != null && isMember(resource.data.groupId)) || staff()); allow create: if signedIn() && request.resource.data.createdByUid == uid(); allow update, delete: if signedIn() && (resource.data.createdByUid == uid() || staff()); }
+    match /buddyRequests/{id} { allow read: if signedIn() && (resource.data.fromUid == uid() || resource.data.toUid == uid() || staff()); allow create: if signedIn() && request.resource.data.fromUid == uid(); allow update, delete: if signedIn() && (resource.data.fromUid == uid() || resource.data.toUid == uid() || staff()); }
+    match /pointEvents/{id} { allow read: if signedIn() && (resource.data.userUid == uid() || staff()); allow create, update, delete: if staff(); }
+    match /auditLogs/{id} { allow read: if staff(); allow create: if signedIn(); allow update, delete: if superAdmin(); }
+    match /adhkar/{id} { allow read: if signedIn(); allow create, update, delete: if staff(); }
+    match /dailyRecords/{id} { allow read: if signedIn() && (resource.data.userUid == uid() || resource.data.user == uid() || staff()); allow create, update: if signedIn() && (request.resource.data.userUid == uid() || request.resource.data.user == uid() || staff()); allow delete: if signedIn() && (resource.data.userUid == uid() || resource.data.user == uid() || staff()); }
+    match /daily_records/{id} { allow read: if signedIn() && (resource.data.userUid == uid() || resource.data.user == uid() || staff()); allow create, update: if signedIn() && (request.resource.data.userUid == uid() || request.resource.data.user == uid() || staff()); allow delete: if signedIn() && (resource.data.userUid == uid() || resource.data.user == uid() || staff()); }
+    match /shared_exams/{id} { allow read: if signedIn() && (resource.data.ownerUid == uid() || staff() || (resource.data.groupId != null && isMember(resource.data.groupId)) || resource.data.visibility == 'public'); allow create: if signedIn() && request.resource.data.ownerUid == uid(); allow update, delete: if signedIn() && (resource.data.ownerUid == uid() || staff()); }
+    match /shared_custom_tasks/{id} { allow read: if signedIn() && (resource.data.ownerUid == uid() || staff() || (resource.data.groupId != null && isMember(resource.data.groupId)) || resource.data.visibility == 'public'); allow create: if signedIn() && request.resource.data.ownerUid == uid(); allow update, delete: if signedIn() && (resource.data.ownerUid == uid() || staff()); }
+    match /shared_materials/{id} { allow read: if signedIn() && (resource.data.ownerUid == uid() || staff() || (resource.data.groupId != null && isMember(resource.data.groupId)) || resource.data.visibility == 'public'); allow create: if signedIn() && request.resource.data.ownerUid == uid(); allow update, delete: if signedIn() && (resource.data.ownerUid == uid() || staff()); }
+    match /shared_projects/{id} { allow read: if signedIn() && (resource.data.ownerUid == uid() || staff() || (resource.data.groupId != null && isMember(resource.data.groupId)) || resource.data.visibility == 'public'); allow create: if signedIn() && request.resource.data.ownerUid == uid(); allow update, delete: if signedIn() && (resource.data.ownerUid == uid() || staff()); }
+    match /shared_polls/{id} { allow read: if signedIn(); allow create, update, delete: if staff(); }
+    match /referenceLinks/{id} { allow read: if signedIn() && (resource.data.status != 'private' || staff()); allow create, update, delete: if staff(); }
+    match /assessmentBlueprints/{id} { allow read: if signedIn(); allow create, update, delete: if staff(); }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

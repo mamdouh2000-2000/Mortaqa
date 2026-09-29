@@ -1,0 +1,454 @@
+{
+  "version": "2026-2027-sector-catalog",
+  "sourceNote": "Sector-level catalogue derived from the supplied Egyptian education architecture. Exact university-specific faculty offerings are not claimed unless seeded in Firestore.",
+  "faculties": [
+    {
+      "id": "medicine",
+      "name": "كلية الطب البشري",
+      "nameEn": "Medicine",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4",
+        "Year 5",
+        "Internship"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "dentistry",
+      "name": "كلية طب الأسنان",
+      "nameEn": "Dentistry",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4",
+        "Year 5",
+        "Internship"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "pharmacy",
+      "name": "كلية الصيدلة (PharmD)",
+      "nameEn": "Pharmacy (PharmD)",
+      "years": [
+        "Level 1",
+        "Level 2",
+        "Level 3",
+        "Level 4",
+        "Level 5",
+        "Internship"
+      ],
+      "departmentMode": "program",
+      "programs": [
+        "PharmD General",
+        "PharmD Clinical"
+      ]
+    },
+    {
+      "id": "physiotherapy",
+      "name": "كلية العلاج الطبيعي",
+      "nameEn": "Physiotherapy",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4",
+        "Year 5",
+        "Internship"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "veterinary",
+      "name": "كلية الطب البيطري",
+      "nameEn": "Veterinary Medicine",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4",
+        "Year 5",
+        "Internship"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "engineering",
+      "name": "كلية الهندسة",
+      "nameEn": "Engineering",
+      "years": [
+        "Preparatory / Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4",
+        "Year 5"
+      ],
+      "departmentMode": "department",
+      "departments": [
+        {
+          "id": "civil",
+          "name": "الهندسة المدنية",
+          "nameEn": "Civil Engineering"
+        },
+        {
+          "id": "architecture",
+          "name": "الهندسة المعمارية",
+          "nameEn": "Architecture"
+        },
+        {
+          "id": "mechanical",
+          "name": "الهندسة الميكانيكية",
+          "nameEn": "Mechanical Engineering"
+        },
+        {
+          "id": "electrical",
+          "name": "الهندسة الكهربائية",
+          "nameEn": "Electrical Engineering"
+        },
+        {
+          "id": "computer-software",
+          "name": "هندسة الحاسبات والبرمجيات",
+          "nameEn": "Computer & Software Engineering"
+        },
+        {
+          "id": "mechatronics-robotics",
+          "name": "هندسة الميكاترونكس والروبوتات",
+          "nameEn": "Mechatronics & Robotics"
+        },
+        {
+          "id": "aerospace",
+          "name": "هندسة الطيران والفضاء",
+          "nameEn": "Aerospace Engineering"
+        },
+        {
+          "id": "biomedical",
+          "name": "الهندسة الطبية الحيوية",
+          "nameEn": "Biomedical Engineering"
+        },
+        {
+          "id": "industrial-management",
+          "name": "الهندسة الصناعية ونظم الإدارة",
+          "nameEn": "Industrial & Management Engineering"
+        },
+        {
+          "id": "petroleum-mining-metals",
+          "name": "هندسة البترول والمناجم والفلزات",
+          "nameEn": "Petroleum, Mining & Metals Engineering"
+        },
+        {
+          "id": "chemical",
+          "name": "الهندسة الكيميائية",
+          "nameEn": "Chemical Engineering"
+        }
+      ]
+    },
+    {
+      "id": "computing-ai",
+      "name": "كلية الحاسبات والذكاء الاصطناعي",
+      "nameEn": "Computers & Artificial Intelligence",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "department",
+      "departments": [
+        {
+          "id": "computer-science",
+          "name": "علوم الحاسب",
+          "nameEn": "Computer Science"
+        },
+        {
+          "id": "information-systems",
+          "name": "نظم المعلومات",
+          "nameEn": "Information Systems"
+        },
+        {
+          "id": "information-technology",
+          "name": "تكنولوجيا المعلومات",
+          "nameEn": "Information Technology"
+        },
+        {
+          "id": "artificial-intelligence",
+          "name": "الذكاء الاصطناعي",
+          "nameEn": "Artificial Intelligence"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "كلية العلوم",
+      "nameEn": "Science",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "department",
+      "departments": [
+        {
+          "id": "physics",
+          "name": "فيزياء",
+          "nameEn": "Physics"
+        },
+        {
+          "id": "chemistry",
+          "name": "كيمياء",
+          "nameEn": "Chemistry"
+        },
+        {
+          "id": "biology",
+          "name": "أحياء",
+          "nameEn": "Biology"
+        },
+        {
+          "id": "geology",
+          "name": "جيولوجيا",
+          "nameEn": "Geology"
+        },
+        {
+          "id": "mathematics",
+          "name": "رياضيات",
+          "nameEn": "Mathematics"
+        }
+      ]
+    },
+    {
+      "id": "commerce-business",
+      "name": "كلية التجارة وإدارة الأعمال",
+      "nameEn": "Commerce & Business",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "department",
+      "departments": [
+        {
+          "id": "accounting",
+          "name": "المحاسبة",
+          "nameEn": "Accounting"
+        },
+        {
+          "id": "business",
+          "name": "إدارة الأعمال",
+          "nameEn": "Business Administration"
+        },
+        {
+          "id": "economics",
+          "name": "الاقتصاد",
+          "nameEn": "Economics"
+        },
+        {
+          "id": "finance",
+          "name": "التمويل",
+          "nameEn": "Finance"
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "name": "كلية الحقوق",
+      "nameEn": "Law",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "arts",
+      "name": "كلية الآداب والعلوم الإنسانية",
+      "nameEn": "Arts & Humanities",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "education",
+      "name": "كلية التربية",
+      "nameEn": "Education",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "nursing",
+      "name": "كلية التمريض",
+      "nameEn": "Nursing",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "agriculture",
+      "name": "كلية الزراعة",
+      "nameEn": "Agriculture",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "mass-media",
+      "name": "كلية الإعلام والاتصال",
+      "nameEn": "Mass Communication",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "languages",
+      "name": "كلية اللغات والترجمة",
+      "nameEn": "Languages & Translation",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "tourism",
+      "name": "كلية السياحة والفنادق",
+      "nameEn": "Tourism & Hotels",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "social-work",
+      "name": "كلية الخدمة الاجتماعية",
+      "nameEn": "Social Work",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "applied-health",
+      "name": "العلوم الصحية التطبيقية",
+      "nameEn": "Applied Health Sciences",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "department",
+      "departments": [
+        {
+          "id": "radiology",
+          "name": "فني الأشعة والتصوير الطبي",
+          "nameEn": "Radiology & Medical Imaging"
+        },
+        {
+          "id": "medical-labs",
+          "name": "فني المختبرات الطبية",
+          "nameEn": "Medical Laboratories"
+        },
+        {
+          "id": "dental-tech",
+          "name": "فني صناعة وتركيبات الأسنان",
+          "nameEn": "Dental Technology"
+        },
+        {
+          "id": "medical-devices",
+          "name": "فني صيانة الأجهزة الطبية",
+          "nameEn": "Medical Devices Maintenance"
+        },
+        {
+          "id": "medical-records",
+          "name": "التسجيل الطبي والإحصاء",
+          "nameEn": "Medical Records & Statistics"
+        },
+        {
+          "id": "health-assistants",
+          "name": "فني المعاونين الصحيين",
+          "nameEn": "Health Assistants"
+        },
+        {
+          "id": "emergency-critical",
+          "name": "الطوارئ والرعاية الحرجة",
+          "nameEn": "Emergency & Critical Care"
+        },
+        {
+          "id": "nursing-tech",
+          "name": "التمريض العام والمتخصص",
+          "nameEn": "General & Specialized Nursing"
+        },
+        {
+          "id": "optics-laser",
+          "name": "فني البصريات وتكنولوجيا الليزر",
+          "nameEn": "Optics & Laser Technology"
+        },
+        {
+          "id": "prosthetics",
+          "name": "فني الأطراف الصناعية والأجهزة التعويضية",
+          "nameEn": "Prosthetics & Orthotics"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "name": "كلية تكنولوجية",
+      "nameEn": "Technological College",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4"
+      ],
+      "departmentMode": "none"
+    },
+    {
+      "id": "other",
+      "name": "مجال / كلية أخرى",
+      "nameEn": "Other Faculty / Program",
+      "years": [
+        "Year 1",
+        "Year 2",
+        "Year 3",
+        "Year 4",
+        "Year 5"
+      ],
+      "departmentMode": "free"
+    }
+  ]
+}

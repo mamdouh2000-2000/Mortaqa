@@ -1,0 +1,1356 @@
+{
+  "schemaVersion": "5.2",
+  "generatedFrom": [
+    "user-provided: هيكل بيانات منصة تعليمية مصرية.docx",
+    "user-provided: هيكل المناهج التعليمية الشامل - Google Docs.pdf",
+    "user-provided: Foundation 1 Midmodule blueprint image"
+  ],
+  "notes": "This seed intentionally includes only source-supported curriculum structures. It does not invent lecture/resource titles that were not present in the supplied files. External references are marked pending_review and are not auto-published.",
+  "curricula": [
+    {
+      "id": "menoufia-national-medicine-foundation-1-2026-2027",
+      "pathKey": "university__university__year-1__menoufia-national__medicine__2026-2027__fall",
+      "priority": 1000,
+      "match": {
+        "system": "university",
+        "stage": "university",
+        "grade": "Year 1",
+        "universityId": "menoufia-national",
+        "facultyId": "medicine",
+        "academicYear": "2026-2027",
+        "semester": "fall"
+      },
+      "title": "Monufia National University — Medicine — Foundation 1 — 2026-2027 Fall",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "user-supplied-foundation-architecture",
+      "sourceNote": "Foundation 1 teaching structure is encoded only from the supplied academic architecture document and the supplied Foundation 1 Midmodule blueprint image; additional sessions/topics should be verified before publication.",
+      "subjects": [
+        {
+          "id": "anatomy",
+          "code": "ANAT",
+          "name": "Anatomy",
+          "lectureCount": 12,
+          "practicalCount": 13,
+          "labs": [
+            "E3Lab9",
+            "E2Lab9-13",
+            "A2Lab1-4",
+            "A1Lab4"
+          ],
+          "units": []
+        },
+        {
+          "id": "biochemistry",
+          "code": "BCH",
+          "name": "Biochemistry",
+          "lectureCount": 14,
+          "practicalCount": 12,
+          "labs": [
+            "E1Lab1-5",
+            "A1Lab1-7",
+            "A0Lab1"
+          ],
+          "units": []
+        },
+        {
+          "id": "histology",
+          "code": "HISTO",
+          "name": "Histology",
+          "lectureCount": 7,
+          "practicalCount": 7,
+          "labs": [
+            "A2",
+            "E2Lab9-13"
+          ],
+          "units": []
+        },
+        {
+          "id": "physiology",
+          "code": "PHYSIO",
+          "name": "Physiology",
+          "lectureCount": 7,
+          "practicalCount": 5,
+          "labs": [
+            "E1Lab1-5",
+            "E2Lab1-5"
+          ],
+          "units": []
+        },
+        {
+          "id": "soft-skills",
+          "code": "SOFT",
+          "name": "Soft Skills",
+          "lectureTopics": [
+            "Medical Terminology",
+            "Presentation Skills"
+          ],
+          "lectureCount": 3,
+          "practicalCount": 3,
+          "locations": [
+            "E3H3",
+            "B0H1"
+          ],
+          "units": []
+        }
+      ],
+      "assessmentBlueprintIds": [
+        "monufia-national-medicine-foundation-1-midmodule-fall-2026-week-5"
+      ]
+    },
+    {
+      "id": "sec_ar_g10_new_bac_2026_2027",
+      "pathKey": "sec_ar__sec_ar__grade-10__new-baccalaureate__2026-2027__fall",
+      "priority": 100,
+      "match": {
+        "system": "sec_ar",
+        "stage": "sec_ar",
+        "grade": "Grade 10",
+        "track": "New Baccalaureate"
+      },
+      "title": "General Secondary - Grade 10 - New Baccalaureate",
+      "language": "ar",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "Arabic",
+          "units": [],
+          "resourceSlots": [
+            "Videos",
+            "PDFs",
+            "Notes",
+            "Question Banks",
+            "Useful Links"
+          ]
+        },
+        {
+          "id": "foreign-language-1",
+          "name": "First Foreign Language",
+          "units": [],
+          "resourceSlots": [
+            "Videos",
+            "PDFs",
+            "Notes",
+            "Question Banks",
+            "Useful Links"
+          ]
+        },
+        {
+          "id": "history",
+          "name": "History",
+          "units": [],
+          "resourceSlots": [
+            "Videos",
+            "PDFs",
+            "Notes",
+            "Question Banks",
+            "Useful Links"
+          ]
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "units": [],
+          "resourceSlots": [
+            "Videos",
+            "PDFs",
+            "Notes",
+            "Question Banks",
+            "Useful Links"
+          ]
+        },
+        {
+          "id": "integrated-science",
+          "name": "Integrated Science",
+          "units": [],
+          "note": "The supplied source describes this course as integrating chemistry and physics.",
+          "resourceSlots": [
+            "Videos",
+            "PDFs",
+            "Notes",
+            "Question Banks",
+            "Useful Links"
+          ]
+        },
+        {
+          "id": "philosophy-logic",
+          "name": "Philosophy and Logic",
+          "units": [],
+          "resourceSlots": [
+            "Videos",
+            "PDFs",
+            "Notes",
+            "Question Banks",
+            "Useful Links"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_ar_g11_science_2026_2027",
+      "pathKey": "sec_ar__sec_ar__grade-11__science__2026-2027__fall",
+      "priority": 100,
+      "match": {
+        "system": "sec_ar",
+        "stage": "sec_ar",
+        "grade": "Grade 11",
+        "track": "Science"
+      },
+      "title": "General Secondary - Grade 11 - Science",
+      "language": "ar",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "Arabic",
+          "units": []
+        },
+        {
+          "id": "foreign-language-1",
+          "name": "First Foreign Language",
+          "units": []
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "units": []
+        },
+        {
+          "id": "biology",
+          "name": "Biology",
+          "units": []
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "units": []
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "units": []
+        }
+      ]
+    },
+    {
+      "id": "sec_ar_g11_literary_2026_2027",
+      "pathKey": "sec_ar__sec_ar__grade-11__literary__2026-2027__fall",
+      "priority": 100,
+      "match": {
+        "system": "sec_ar",
+        "stage": "sec_ar",
+        "grade": "Grade 11",
+        "track": "Literary"
+      },
+      "title": "General Secondary - Grade 11 - Literary",
+      "language": "ar",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "Arabic",
+          "units": []
+        },
+        {
+          "id": "foreign-language-1",
+          "name": "First Foreign Language",
+          "units": []
+        },
+        {
+          "id": "history",
+          "name": "History",
+          "units": []
+        },
+        {
+          "id": "geography",
+          "name": "Geography",
+          "units": []
+        },
+        {
+          "id": "psychology",
+          "name": "Psychology",
+          "units": []
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "units": []
+        }
+      ]
+    },
+    {
+      "id": "sec_ar_g12_science_2026_2027",
+      "pathKey": "sec_ar__sec_ar__grade-12__science__2026-2027__fall",
+      "priority": 100,
+      "match": {
+        "system": "sec_ar",
+        "stage": "sec_ar",
+        "grade": "Grade 12",
+        "track": "Science"
+      },
+      "title": "General Secondary - Grade 12 - Science",
+      "language": "ar",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "Arabic",
+          "units": [
+            {
+              "id": "texts",
+              "name": "Texts",
+              "topics": [
+                {
+                  "id": "ghorba-wa-haneen",
+                  "name": "Ghorba wa Haneen"
+                },
+                {
+                  "id": "al-masaa",
+                  "name": "Al-Masaa"
+                },
+                {
+                  "id": "al-nosour",
+                  "name": "Al-Nosour"
+                },
+                {
+                  "id": "rithaa-may",
+                  "name": "Rithaa May"
+                },
+                {
+                  "id": "man-anta-ya-nafs",
+                  "name": "Man Anta Ya Nafs"
+                },
+                {
+                  "id": "ahwak-ya-watany",
+                  "name": "Ahwak Ya Watany"
+                },
+                {
+                  "id": "al-kanisa-nawart",
+                  "name": "Al-Kanisa Nawart"
+                }
+              ]
+            },
+            {
+              "id": "literature",
+              "name": "Literature",
+              "topics": [
+                {
+                  "id": "realism",
+                  "name": "Realism"
+                },
+                {
+                  "id": "mahjar",
+                  "name": "Mahjar"
+                },
+                {
+                  "id": "romanticism",
+                  "name": "Romanticism"
+                },
+                {
+                  "id": "classicism",
+                  "name": "Classicism"
+                },
+                {
+                  "id": "diwan",
+                  "name": "Al-Diwan"
+                },
+                {
+                  "id": "apollo",
+                  "name": "Apollo"
+                }
+              ]
+            },
+            {
+              "id": "grammar",
+              "name": "Grammar",
+              "topics": [
+                {
+                  "id": "grammar-unit-1",
+                  "name": "Unit 1"
+                },
+                {
+                  "id": "grammar-unit-2",
+                  "name": "Unit 2"
+                },
+                {
+                  "id": "grammar-unit-3",
+                  "name": "Unit 3"
+                },
+                {
+                  "id": "grammar-unit-4",
+                  "name": "Unit 4"
+                },
+                {
+                  "id": "grammar-unit-5",
+                  "name": "Unit 5"
+                },
+                {
+                  "id": "grammar-unit-6",
+                  "name": "Unit 6"
+                },
+                {
+                  "id": "grammar-unit-7",
+                  "name": "Unit 7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "foreign-language-1",
+          "name": "First Foreign Language",
+          "units": [
+            {
+              "id": "upstream",
+              "name": "Upstream",
+              "topics": [
+                {
+                  "id": "upstream-1",
+                  "name": "Unit 1"
+                },
+                {
+                  "id": "upstream-2",
+                  "name": "Unit 2"
+                },
+                {
+                  "id": "upstream-4",
+                  "name": "Unit 4"
+                },
+                {
+                  "id": "upstream-7",
+                  "name": "Unit 7"
+                },
+                {
+                  "id": "upstream-8",
+                  "name": "Unit 8"
+                }
+              ]
+            },
+            {
+              "id": "sec-school",
+              "name": "Sec School",
+              "topics": [
+                {
+                  "id": "sec-1",
+                  "name": "Unit 1"
+                },
+                {
+                  "id": "sec-2",
+                  "name": "Unit 2"
+                },
+                {
+                  "id": "sec-3",
+                  "name": "Unit 3"
+                },
+                {
+                  "id": "sec-4",
+                  "name": "Unit 4"
+                },
+                {
+                  "id": "sec-5",
+                  "name": "Unit 5"
+                },
+                {
+                  "id": "sec-6",
+                  "name": "Unit 6"
+                },
+                {
+                  "id": "sec-7",
+                  "name": "Unit 7"
+                },
+                {
+                  "id": "sec-8",
+                  "name": "Unit 8"
+                },
+                {
+                  "id": "sec-9",
+                  "name": "Unit 9"
+                },
+                {
+                  "id": "sec-10",
+                  "name": "Unit 10"
+                },
+                {
+                  "id": "sec-11",
+                  "name": "Unit 11"
+                },
+                {
+                  "id": "sec-12",
+                  "name": "Unit 12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "biology",
+          "name": "Biology",
+          "units": []
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "units": [
+            {
+              "id": "module-1",
+              "name": "Module 1"
+            },
+            {
+              "id": "module-2",
+              "name": "Module 2"
+            },
+            {
+              "id": "module-3",
+              "name": "Module 3"
+            },
+            {
+              "id": "module-4",
+              "name": "Module 4"
+            }
+          ]
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "units": [
+            {
+              "id": "lo-1",
+              "name": "Learning Outcome 1"
+            },
+            {
+              "id": "lo-2",
+              "name": "Learning Outcome 2"
+            },
+            {
+              "id": "lo-3",
+              "name": "Learning Outcome 3"
+            },
+            {
+              "id": "lo-4",
+              "name": "Learning Outcome 4"
+            },
+            {
+              "id": "lo-5",
+              "name": "Learning Outcome 5"
+            },
+            {
+              "id": "lo-6",
+              "name": "Learning Outcome 6"
+            },
+            {
+              "id": "lo-7",
+              "name": "Learning Outcome 7"
+            },
+            {
+              "id": "lo-8",
+              "name": "Learning Outcome 8"
+            },
+            {
+              "id": "lo-9",
+              "name": "Learning Outcome 9"
+            },
+            {
+              "id": "lo-10",
+              "name": "Learning Outcome 10"
+            },
+            {
+              "id": "lo-11",
+              "name": "Learning Outcome 11"
+            },
+            {
+              "id": "lo-12",
+              "name": "Learning Outcome 12"
+            },
+            {
+              "id": "lo-13",
+              "name": "Learning Outcome 13"
+            },
+            {
+              "id": "lo-14",
+              "name": "Learning Outcome 14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_ar_g12_math_2026_2027",
+      "pathKey": "sec_ar__sec_ar__grade-12__math__2026-2027__fall",
+      "priority": 100,
+      "match": {
+        "system": "sec_ar",
+        "stage": "sec_ar",
+        "grade": "Grade 12",
+        "track": "Math"
+      },
+      "title": "General Secondary - Grade 12 - Mathematics",
+      "language": "ar",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "Arabic",
+          "units": []
+        },
+        {
+          "id": "foreign-language-1",
+          "name": "First Foreign Language",
+          "units": []
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "units": [
+            {
+              "id": "pure",
+              "name": "Pure Mathematics"
+            },
+            {
+              "id": "applied",
+              "name": "Applied Mathematics"
+            }
+          ]
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "units": []
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "units": []
+        }
+      ]
+    },
+    {
+      "id": "sec_ar_g12_literary_2026_2027",
+      "pathKey": "sec_ar__sec_ar__grade-12__literary__2026-2027__fall",
+      "priority": 100,
+      "match": {
+        "system": "sec_ar",
+        "stage": "sec_ar",
+        "grade": "Grade 12",
+        "track": "Literary"
+      },
+      "title": "General Secondary - Grade 12 - Literary",
+      "language": "ar",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "subjects": [
+        {
+          "id": "arabic",
+          "name": "Arabic",
+          "units": []
+        },
+        {
+          "id": "foreign-language-1",
+          "name": "First Foreign Language",
+          "units": []
+        },
+        {
+          "id": "history",
+          "name": "History",
+          "units": []
+        },
+        {
+          "id": "geography",
+          "name": "Geography",
+          "units": []
+        },
+        {
+          "id": "statistics",
+          "name": "Statistics",
+          "units": []
+        },
+        {
+          "id": "religious-education",
+          "name": "Religious Education",
+          "units": [],
+          "countedInTotal": false
+        },
+        {
+          "id": "second-foreign-language",
+          "name": "Second Foreign Language",
+          "units": [],
+          "countedInTotal": false
+        },
+        {
+          "id": "national-education",
+          "name": "National Education",
+          "units": [],
+          "countedInTotal": false
+        }
+      ]
+    },
+    {
+      "id": "stem_g10_integrated_2026_2027",
+      "pathKey": "stem__stem__grade-10__2026-2027__fall",
+      "priority": 100,
+      "match": {
+        "system": "stem",
+        "stage": "stem",
+        "grade": "Grade 10"
+      },
+      "title": "STEM - Grade 10",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "subjects": [
+        {
+          "id": "integrated-sciences",
+          "name": "Integrated Sciences",
+          "units": []
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "units": []
+        },
+        {
+          "id": "technology",
+          "name": "Technology",
+          "units": []
+        },
+        {
+          "id": "engineering",
+          "name": "Engineering",
+          "units": []
+        },
+        {
+          "id": "capstone",
+          "name": "Capstone Projects",
+          "units": []
+        }
+      ],
+      "assessmentModel": {
+        "projectAndLearningSkillsPercent": 60,
+        "urtPercent": 30,
+        "continuousPerformancePercent": 10
+      }
+    },
+    {
+      "id": "stem_g11_integrated_2026_2027",
+      "pathKey": "stem__stem__grade-11__2026-2027__fall",
+      "priority": 100,
+      "match": {
+        "system": "stem",
+        "stage": "stem",
+        "grade": "Grade 11"
+      },
+      "title": "STEM - Grade 11",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "subjects": [
+        {
+          "id": "integrated-sciences",
+          "name": "Integrated Sciences",
+          "units": []
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "units": []
+        },
+        {
+          "id": "technology",
+          "name": "Technology",
+          "units": []
+        },
+        {
+          "id": "engineering",
+          "name": "Engineering",
+          "units": []
+        },
+        {
+          "id": "capstone",
+          "name": "Capstone Projects",
+          "units": []
+        }
+      ],
+      "assessmentModel": {
+        "projectAndLearningSkillsPercent": 60,
+        "urtPercent": 30,
+        "continuousPerformancePercent": 10
+      }
+    },
+    {
+      "id": "stem_g12_science_2026_2027",
+      "pathKey": "stem__stem__grade-12__science__2026-2027__fall",
+      "priority": 100,
+      "match": {
+        "system": "stem",
+        "stage": "stem",
+        "grade": "Grade 12",
+        "track": "Science"
+      },
+      "title": "STEM - Grade 12 - Science Group",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "subjects": [
+        {
+          "id": "integrated-sciences",
+          "name": "Integrated Sciences",
+          "units": []
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "units": []
+        },
+        {
+          "id": "technology",
+          "name": "Technology",
+          "units": []
+        },
+        {
+          "id": "engineering",
+          "name": "Engineering",
+          "units": []
+        },
+        {
+          "id": "capstone",
+          "name": "Capstone Projects",
+          "units": []
+        }
+      ],
+      "assessmentModel": {
+        "projectAndLearningSkillsPercent": 60,
+        "urtPercent": 30,
+        "continuousPerformancePercent": 10
+      }
+    },
+    {
+      "id": "stem_g12_math_2026_2027",
+      "pathKey": "stem__stem__grade-12__math__2026-2027__fall",
+      "priority": 100,
+      "match": {
+        "system": "stem",
+        "stage": "stem",
+        "grade": "Grade 12",
+        "track": "Math"
+      },
+      "title": "STEM - Grade 12 - Mathematics Group",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "subjects": [
+        {
+          "id": "integrated-sciences",
+          "name": "Integrated Sciences",
+          "units": []
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "units": []
+        },
+        {
+          "id": "technology",
+          "name": "Technology",
+          "units": []
+        },
+        {
+          "id": "engineering",
+          "name": "Engineering",
+          "units": []
+        },
+        {
+          "id": "capstone",
+          "name": "Capstone Projects",
+          "units": []
+        }
+      ],
+      "assessmentModel": {
+        "projectAndLearningSkillsPercent": 60,
+        "urtPercent": 30,
+        "continuousPerformancePercent": 10
+      }
+    },
+    {
+      "id": "igcse_year10_catalog",
+      "pathKey": "igcse__igcse__year-10__2026-2027__fall",
+      "priority": 80,
+      "match": {
+        "system": "igcse",
+        "stage": "igcse",
+        "grade": "Year 10"
+      },
+      "title": "IGCSE - Year 10",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "selectionModel": "subject_based",
+      "subjects": [
+        {
+          "id": "english",
+          "name": "English",
+          "levelOptions": [
+            "O-Level/IGCSE"
+          ]
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "levelOptions": [
+            "O-Level/IGCSE"
+          ]
+        },
+        {
+          "id": "biology",
+          "name": "Biology",
+          "levelOptions": [
+            "O-Level/IGCSE"
+          ]
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "levelOptions": [
+            "O-Level/IGCSE"
+          ]
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "levelOptions": [
+            "O-Level/IGCSE"
+          ]
+        },
+        {
+          "id": "accounting",
+          "name": "Accounting",
+          "levelOptions": [
+            "O-Level/IGCSE"
+          ]
+        },
+        {
+          "id": "business",
+          "name": "Business Studies",
+          "levelOptions": [
+            "O-Level/IGCSE"
+          ]
+        },
+        {
+          "id": "computer-science",
+          "name": "Computer Science",
+          "levelOptions": [
+            "O-Level/IGCSE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "igcse_year11_catalog",
+      "pathKey": "igcse__igcse__year-11__2026-2027__fall",
+      "priority": 80,
+      "match": {
+        "system": "igcse",
+        "stage": "igcse",
+        "grade": "Year 11"
+      },
+      "title": "IGCSE - Year 11",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "selectionModel": "subject_based",
+      "levelOptions": [
+        "O-Level/IGCSE",
+        "AS-Level"
+      ]
+    },
+    {
+      "id": "igcse_year12_catalog",
+      "pathKey": "igcse__igcse__year-12__2026-2027__fall",
+      "priority": 80,
+      "match": {
+        "system": "igcse",
+        "stage": "igcse",
+        "grade": "Year 12"
+      },
+      "title": "IGCSE - Year 12",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "selectionModel": "subject_based",
+      "levelOptions": [
+        "AS-Level",
+        "A-Level/A2"
+      ],
+      "gradingOptions": [
+        "A*-G",
+        "9-1"
+      ]
+    },
+    {
+      "id": "american_diploma_catalog",
+      "pathKey": "american__american__2026-2027__fall",
+      "priority": 70,
+      "match": {
+        "system": "american",
+        "stage": "american"
+      },
+      "title": "American Diploma",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "selectionModel": "subject_based",
+      "tests": [
+        "EST I",
+        "EST II",
+        "SAT 1",
+        "SAT 2",
+        "ACT 1",
+        "ACT 2"
+      ],
+      "subjectTests": [
+        "Math Level 1",
+        "Math Level 2",
+        "Physics",
+        "Chemistry",
+        "Biology"
+      ]
+    },
+    {
+      "id": "university_medicine_generic",
+      "pathKey": "university__university__medicine__2026-2027__fall",
+      "priority": 50,
+      "match": {
+        "system": "university",
+        "stage": "university",
+        "faculty": "Medicine"
+      },
+      "title": "University - Medicine - Generic Structure",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "framework_supported",
+      "durationModel": "5+2",
+      "specialization": "postgraduate",
+      "subjects": []
+    },
+    {
+      "id": "university_dentistry_generic",
+      "pathKey": "university__university__dentistry__2026-2027__fall",
+      "priority": 50,
+      "match": {
+        "system": "university",
+        "stage": "university",
+        "faculty": "Dentistry"
+      },
+      "title": "University - Dentistry - Generic Structure",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "framework_supported",
+      "durationModel": "5+1",
+      "subjects": []
+    },
+    {
+      "id": "university_pharmacy_generic",
+      "pathKey": "university__university__pharmacy__2026-2027__fall",
+      "priority": 50,
+      "match": {
+        "system": "university",
+        "stage": "university",
+        "faculty": "Pharmacy"
+      },
+      "title": "University - Pharmacy - PharmD",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "framework_supported",
+      "durationModel": "5+1",
+      "programOptions": [
+        "PharmD General",
+        "PharmD Clinical"
+      ],
+      "subjects": []
+    },
+    {
+      "id": "university_physiotherapy_generic",
+      "pathKey": "university__university__physiotherapy__2026-2027__fall",
+      "priority": 50,
+      "match": {
+        "system": "university",
+        "stage": "university",
+        "faculty": "Physiotherapy"
+      },
+      "title": "University - Physiotherapy",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "durationModel": "5+1",
+      "subjects": [
+        {
+          "id": "130101",
+          "code": "130101",
+          "name": "Human Anatomy 1-3",
+          "creditHint": "3 hours per level (2 theory + 1 practical)"
+        },
+        {
+          "id": "130102",
+          "code": "130102",
+          "name": "Physiology 1-4",
+          "creditHint": "2.5 hours (2 theory + 0.5 practical)"
+        },
+        {
+          "id": "130103",
+          "code": "130103",
+          "name": "Histology 1-2",
+          "creditHint": "2.5 and 1.5 hours"
+        },
+        {
+          "id": "130105",
+          "code": "130105",
+          "name": "Biophysics",
+          "creditHint": "3.5 hours (3 theory + 0.5 practical)"
+        },
+        {
+          "id": "130108",
+          "code": "130108",
+          "name": "Biochemistry 1-2",
+          "creditHint": "2.5 hours (2 theory + 0.5 practical)"
+        },
+        {
+          "id": "130104",
+          "code": "130104",
+          "name": "Psychology of Persons with Disabilities",
+          "creditHint": "2 theory hours"
+        },
+        {
+          "id": "130111",
+          "code": "130111",
+          "name": "Neuroanatomy",
+          "creditHint": "3 hours (2 theory + 1 practical)"
+        },
+        {
+          "id": "130114",
+          "code": "130114",
+          "name": "Tests and Measurements 1",
+          "creditHint": "3 hours (2 theory + 1 clinical)"
+        },
+        {
+          "id": "130115",
+          "code": "130115",
+          "name": "Hydrotherapy",
+          "creditHint": "2 hours (1 theory + 1 clinical)"
+        },
+        {
+          "id": "130116",
+          "code": "130116",
+          "name": "Electrotherapy 1-2",
+          "creditHint": "3 hours (2 theory + 1 clinical)"
+        }
+      ]
+    },
+    {
+      "id": "university_engineering_generic",
+      "pathKey": "university__university__engineering__2026-2027__fall",
+      "priority": 50,
+      "match": {
+        "system": "university",
+        "stage": "university",
+        "faculty": "Engineering"
+      },
+      "title": "University - Engineering - Generic Structure",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "framework_supported",
+      "durationModel": "5 years",
+      "subjects": [
+        {
+          "id": "mathematics",
+          "name": "Mathematics"
+        },
+        {
+          "id": "physics",
+          "name": "Physics"
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry"
+        },
+        {
+          "id": "engineering-drawing",
+          "name": "Engineering Drawing"
+        },
+        {
+          "id": "mechanics",
+          "name": "Mechanics"
+        },
+        {
+          "id": "engineering-computing",
+          "name": "Engineering Computing"
+        }
+      ],
+      "specializations": [
+        "Civil",
+        "Architecture",
+        "Mechanical",
+        "Electrical",
+        "Computer and Software",
+        "Mechatronics and Robotics",
+        "Aerospace",
+        "Biomedical",
+        "Industrial and Management Systems",
+        "Petroleum/Mining/Metals",
+        "Chemical"
+      ]
+    },
+    {
+      "id": "university_computer_science_generic",
+      "pathKey": "university__university__computer-science__2026-2027__fall",
+      "priority": 50,
+      "match": {
+        "system": "university",
+        "stage": "university",
+        "faculty": "Computer Science"
+      },
+      "title": "University - Computer Science / AI - Generic Structure",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "framework_supported",
+      "durationModel": "4 years",
+      "tracks": [
+        "Computer Science",
+        "Software Engineering",
+        "Artificial Intelligence",
+        "Cybersecurity",
+        "Cloud Computing",
+        "Computer Vision",
+        "Bioinformatics",
+        "Game Development",
+        "Business Analytics"
+      ]
+    },
+    {
+      "id": "health_technical_generic",
+      "pathKey": "health-technical__health-technical__2026-2027__fall",
+      "priority": 40,
+      "match": {
+        "system": "health-technical",
+        "stage": "health-technical"
+      },
+      "title": "Technical Health Institutes - Generic Structure",
+      "language": "en",
+      "active": true,
+      "sourceStatus": "source_supported",
+      "durationModel": "2 years + 6 months internship",
+      "specializations": [
+        "Radiology and Medical Imaging",
+        "Medical Laboratories",
+        "Dental Technology",
+        "Medical Equipment Maintenance",
+        "Medical Registration and Statistics",
+        "Health Assistant",
+        "Emergency and Critical Care",
+        "Nursing",
+        "Optics and Laser Technology",
+        "Prosthetics and Orthotics"
+      ],
+      "backgroundRules": [
+        {
+          "specialization": "Medical Equipment Maintenance",
+          "allowedBackground": [
+            "General Secondary Science Math",
+            "Industrial Diploma - Electricity/Electronics"
+          ]
+        },
+        {
+          "specialization": "Medical Registration and Statistics",
+          "allowedBackground": [
+            "General Secondary Science",
+            "Commercial Diploma"
+          ]
+        },
+        {
+          "specialization": "Health Assistant",
+          "allowedBackground": [
+            "General Secondary Science"
+          ]
+        },
+        {
+          "specialization": "Emergency and Critical Care",
+          "allowedBackground": [
+            "General Secondary Science"
+          ]
+        }
+      ]
+    }
+  ],
+  "assessmentBlueprints": [
+    {
+      "id": "monufia-national-medicine-foundation-1-midmodule-fall-2026-week-5",
+      "institution": "Monufia National University",
+      "faculty": "Medicine",
+      "academicYear": "2026-2027",
+      "term": "Fall",
+      "assessment": "Foundation 1 Midmodule Exam",
+      "week": "Week 5",
+      "duration": "1 hour 15 minutes",
+      "totalMcqs": 60,
+      "totalMarks": 30,
+      "source": "User-provided exam blueprint image",
+      "subjects": [
+        {
+          "subject": "Anatomy",
+          "mcqs": 20,
+          "marks": 10.125,
+          "scope": "First 4 Lectures (2 Embryology + 2 Anatomy)"
+        },
+        {
+          "subject": "Physiology",
+          "mcqs": 10,
+          "marks": 4.875,
+          "scope": "First 3 Lectures"
+        },
+        {
+          "subject": "Histology",
+          "mcqs": 10,
+          "marks": 4.875,
+          "scope": "First 2 Lectures"
+        },
+        {
+          "subject": "Biochemistry",
+          "mcqs": 20,
+          "marks": 10.125,
+          "scope": "First 2 Chapters: carbohydrate chemistry and physical chemistry"
+        }
+      ],
+      "note": "Only the scope shown in the supplied image is encoded here. Full lecture/topic materials must be supplied or verified before publication."
+    }
+  ],
+  "referenceLinksPendingReview": [
+    {
+      "title": "Ministry/secondary curriculum reference set",
+      "url": "https://www.almasryalyoum.com/news/details/3552558",
+      "type": "reference",
+      "status": "pending_review"
+    },
+    {
+      "title": "Egypt Ministry / higher education institution lists",
+      "url": "https://sis.gov.eg/ar/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85%D9%8A/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85-%D8%A7%D9%84%D9%85%D8%AD%D8%AF%D8%AB%D8%A9-%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A-%D8%A8%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/",
+      "type": "reference",
+      "status": "pending_review"
+    },
+    {
+      "title": "E-JUST admission requirements",
+      "url": "https://www.ejust.edu.eg/ug-FOE-Admission-Requirement",
+      "type": "reference",
+      "status": "pending_review"
+    },
+    {
+      "title": "Future University admission requirements",
+      "url": "https://www.fue.edu.eg/undergraduate_applicants/admission_requirements/documents_and_entry_requirements",
+      "type": "reference",
+      "status": "pending_review"
+    }
+  ],
+  "updatedFor": "2026-2027 final release"
+}

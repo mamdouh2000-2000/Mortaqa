@@ -1,0 +1,1008 @@
+{
+  "version": "2026-2027",
+  "lastVerified": "2026-08-14",
+  "sources": [
+    {
+      "name": "State Information Service / Ministry of Higher Education — updated accredited higher-education institution lists",
+      "kind": "official",
+      "url": "https://sis.gov.eg/ar/المركز-الإعلامي/الأخبار/التعليم-العالي-تعلن-القوائم-المحدثة-لمؤسسات-التعليم-العالي-المعتمدة-بجمهورية-مصر-العربية/",
+      "verifiedDate": "2026-07-30"
+    },
+    {
+      "name": "State Information Service — technological universities list",
+      "kind": "official",
+      "url": "https://sis.gov.eg/ar/مصر/المجتمع/التعليم/الجامعات-التكنولوجية/",
+      "verifiedDate": "2026-08-14"
+    },
+    {
+      "name": "User-supplied Egyptian education architecture DOCX",
+      "kind": "user-source",
+      "verifiedDate": "2026-09-29"
+    }
+  ],
+  "types": [
+    {
+      "id": "government",
+      "label": "الجامعات الحكومية",
+      "institutions": [
+        {
+          "id": "cairo",
+          "name": "جامعة القاهرة",
+          "nameEn": "Cairo University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "alexandria",
+          "name": "جامعة الإسكندرية",
+          "nameEn": "Alexandria University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "ain-shams",
+          "name": "جامعة عين شمس",
+          "nameEn": "Ain Shams University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "assiut",
+          "name": "جامعة أسيوط",
+          "nameEn": "Assiut University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "tanta",
+          "name": "جامعة طنطا",
+          "nameEn": "Tanta University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "mansoura",
+          "name": "جامعة المنصورة",
+          "nameEn": "Mansoura University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "zagazig",
+          "name": "جامعة الزقازيق",
+          "nameEn": "Zagazig University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "capital",
+          "name": "جامعة العاصمة",
+          "nameEn": "Capital University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "minia",
+          "name": "جامعة المنيا",
+          "nameEn": "Minia University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "menoufia",
+          "name": "جامعة المنوفية",
+          "nameEn": "Menoufia University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "suez-canal",
+          "name": "جامعة قناة السويس",
+          "nameEn": "Suez Canal University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "qena",
+          "name": "جامعة قنا",
+          "nameEn": "Qena University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "beni-suef",
+          "name": "جامعة بني سويف",
+          "nameEn": "Beni-Suef University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "fayoum",
+          "name": "جامعة الفيوم",
+          "nameEn": "Fayoum University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "benha",
+          "name": "جامعة بنها",
+          "nameEn": "Benha University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "kafrelsheikh",
+          "name": "جامعة كفر الشيخ",
+          "nameEn": "Kafrelsheikh University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "sohag",
+          "name": "جامعة سوهاج",
+          "nameEn": "Sohag University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "portsaid",
+          "name": "جامعة بورسعيد",
+          "nameEn": "Port Said University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "damanhour",
+          "name": "جامعة دمنهور",
+          "nameEn": "Damanhour University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "aswan",
+          "name": "جامعة أسوان",
+          "nameEn": "Aswan University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "damietta",
+          "name": "جامعة دمياط",
+          "nameEn": "Damietta University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "suez",
+          "name": "جامعة السويس",
+          "nameEn": "Suez University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "sadat",
+          "name": "جامعة مدينة السادات",
+          "nameEn": "Sadat City University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "arish",
+          "name": "جامعة العريش",
+          "nameEn": "Arish University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "new-valley",
+          "name": "جامعة الوادي الجديد",
+          "nameEn": "New Valley University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "matrouh",
+          "name": "جامعة مطروح",
+          "nameEn": "Matrouh University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "luxor",
+          "name": "جامعة الأقصر",
+          "nameEn": "Luxor University",
+          "type": "government",
+          "status": "active"
+        },
+        {
+          "id": "hurghada",
+          "name": "جامعة الغردقة",
+          "nameEn": "Hurghada University",
+          "type": "government",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "private",
+      "label": "الجامعات الخاصة",
+      "institutions": [
+        {
+          "id": "october-6",
+          "name": "جامعة 6 أكتوبر",
+          "nameEn": "October 6 University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "msa",
+          "name": "جامعة أكتوبر للعلوم الحديثة والآداب",
+          "nameEn": "October University for Modern Sciences and Arts",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "must",
+          "name": "جامعة مصر للعلوم والتكنولوجيا",
+          "nameEn": "Misr University for Science and Technology",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "miu",
+          "name": "جامعة مصر الدولية",
+          "nameEn": "Misr International University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "guc",
+          "name": "الجامعة الألمانية بالقاهرة",
+          "nameEn": "German University in Cairo",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "acu",
+          "name": "جامعة الأهرام الكندية",
+          "nameEn": "Ahram Canadian University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "bue",
+          "name": "الجامعة البريطانية في مصر",
+          "nameEn": "British University in Egypt",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "mti",
+          "name": "الجامعة الحديثة للتكنولوجيا والمعلومات",
+          "nameEn": "Modern University for Technology & Information",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "sinai",
+          "name": "جامعة سيناء",
+          "nameEn": "Sinai University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "pharos",
+          "name": "جامعة فاروس بالإسكندرية",
+          "nameEn": "Pharos University in Alexandria",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "nahda",
+          "name": "جامعة النهضة ببني سويف",
+          "nameEn": "Nahda University in Beni Suef",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "future",
+          "name": "جامعة المستقبل",
+          "nameEn": "Future University in Egypt",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "eru",
+          "name": "الجامعة المصرية الروسية",
+          "nameEn": "Egyptian Russian University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "delta",
+          "name": "جامعة الدلتا للعلوم والتكنولوجيا بجمصة",
+          "nameEn": "Delta University for Science and Technology",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "heliopolis",
+          "name": "جامعة هليوبوليس",
+          "nameEn": "Heliopolis University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "new-giza",
+          "name": "جامعة الجيزة الجديدة",
+          "nameEn": "New Giza University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "deraya",
+          "name": "جامعة دراية بالمنيا",
+          "nameEn": "Deraya University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "badr",
+          "name": "جامعة بدر",
+          "nameEn": "Badr University in Cairo",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "horus",
+          "name": "جامعة حورس",
+          "nameEn": "Horus University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "ecu",
+          "name": "الجامعة المصرية الصينية",
+          "nameEn": "Egyptian Chinese University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "merit",
+          "name": "جامعة ميريت",
+          "nameEn": "Merit University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "sphinx",
+          "name": "جامعة سفنكس",
+          "nameEn": "Sphinx University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "salam",
+          "name": "جامعة السلام",
+          "nameEn": "Salam University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "badr-assiut",
+          "name": "جامعة بدر بأسيوط",
+          "nameEn": "Badr University in Assiut",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "salhia",
+          "name": "جامعة الصالحية الجديدة",
+          "nameEn": "Al-Salhia Elgedida University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "hayah",
+          "name": "جامعة الحياة",
+          "nameEn": "Al Hayah University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "may",
+          "name": "جامعة مايو",
+          "nameEn": "MAY University in Cairo",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "reyada",
+          "name": "جامعة الريادة للعلوم والتكنولوجيا بمدينة السادات",
+          "nameEn": "Al Reyada University for Science and Technology",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "ebtikar",
+          "name": "جامعة الابتكار",
+          "nameEn": "Innovation University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "madina",
+          "name": "جامعة المدينة بالقاهرة",
+          "nameEn": "Al-Madina University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "rasheed",
+          "name": "جامعة رشيد",
+          "nameEn": "Rasheed University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "badya",
+          "name": "جامعة باديا",
+          "nameEn": "Badya University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "wadi-el-nile",
+          "name": "جامعة وادي النيل بالفيوم",
+          "nameEn": "Wadi El Nil University in Fayoum",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "lotus",
+          "name": "جامعة اللوتس",
+          "nameEn": "Lotus University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "obour-tech",
+          "name": "جامعة العبور للعلوم والتكنولوجيا",
+          "nameEn": "Obour University for Science & Technology",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "memphis",
+          "name": "جامعة ممفيس",
+          "nameEn": "Memphis University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "east-capital",
+          "name": "جامعة شرق العاصمة",
+          "nameEn": "East Capital University",
+          "type": "private",
+          "status": "active"
+        },
+        {
+          "id": "new-heliopolis",
+          "name": "جامعة مصر الجديدة",
+          "nameEn": "New Egypt University",
+          "type": "private",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "national",
+      "label": "الجامعات الأهلية",
+      "institutions": [
+        {
+          "id": "king-salman",
+          "name": "جامعة الملك سلمان الدولية",
+          "nameEn": "King Salman International University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "alamein",
+          "name": "جامعة العلمين الدولية",
+          "nameEn": "Alamein International University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "galala",
+          "name": "جامعة الجلالة",
+          "nameEn": "Galala University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "new-mansoura",
+          "name": "جامعة المنصورة الجديدة",
+          "nameEn": "New Mansoura National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "e-learning",
+          "name": "الجامعة المصرية للتعلم الإلكتروني الأهلية",
+          "nameEn": "Egyptian E-Learning National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "nile",
+          "name": "جامعة النيل الأهلية",
+          "nameEn": "Nile University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "french",
+          "name": "الجامعة الأهلية الفرنسية في مصر",
+          "nameEn": "French University in Egypt",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "eui",
+          "name": "جامعة مصر للمعلوماتية",
+          "nameEn": "Egypt University of Informatics",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "helwan-national",
+          "name": "جامعة حلوان الأهلية",
+          "nameEn": "Helwan National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "mansoura-national",
+          "name": "جامعة المنصورة الأهلية",
+          "nameEn": "Mansoura National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "benha-national",
+          "name": "جامعة بنها الأهلية",
+          "nameEn": "Benha National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "menoufia-national",
+          "name": "جامعة المنوفية الأهلية",
+          "nameEn": "Menoufia National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "beni-suef-national",
+          "name": "جامعة بني سويف الأهلية",
+          "nameEn": "Beni-Suef National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "assiut-national",
+          "name": "جامعة أسيوط الأهلية",
+          "nameEn": "Assiut National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "south-valley-national",
+          "name": "جامعة جنوب الوادي الأهلية",
+          "nameEn": "South Valley National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "minia-national",
+          "name": "جامعة المنيا الأهلية",
+          "nameEn": "Minia National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "east-portsaid-national",
+          "name": "جامعة شرق بورسعيد الأهلية",
+          "nameEn": "East Port Said National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "alexandria-national",
+          "name": "جامعة الإسكندرية الأهلية",
+          "nameEn": "Alexandria National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "zagazig-national",
+          "name": "جامعة الزقازيق الأهلية",
+          "nameEn": "Zagazig National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "new-ismailia-national",
+          "name": "جامعة الإسماعيلية الجديدة الأهلية",
+          "nameEn": "New Ismailia National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "suez-national",
+          "name": "جامعة السويس الأهلية",
+          "nameEn": "Suez National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "damanhour-national",
+          "name": "جامعة دمنهور الأهلية",
+          "nameEn": "Damanhour National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "cairo-national",
+          "name": "جامعة القاهرة الأهلية",
+          "nameEn": "Cairo National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "ain-shams-national",
+          "name": "جامعة عين شمس الأهلية",
+          "nameEn": "Ain Shams National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "sohag-national",
+          "name": "جامعة سوهاج الأهلية",
+          "nameEn": "Sohag National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "kafrelsheikh-national",
+          "name": "جامعة كفر الشيخ الأهلية",
+          "nameEn": "Kafrelsheikh National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "new-valley-national",
+          "name": "جامعة الوادي الجديد الأهلية",
+          "nameEn": "New Valley National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "fayoum-national",
+          "name": "جامعة الفيوم الأهلية",
+          "nameEn": "Fayoum National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "tanta-national",
+          "name": "جامعة طنطا الأهلية",
+          "nameEn": "Tanta National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "luxor-national",
+          "name": "جامعة الأقصر الأهلية",
+          "nameEn": "Luxor National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "damietta-national",
+          "name": "جامعة دمياط الأهلية",
+          "nameEn": "Damietta National University",
+          "type": "national",
+          "status": "active"
+        },
+        {
+          "id": "sadat-national",
+          "name": "جامعة مدينة السادات الأهلية",
+          "nameEn": "Sadat City National University",
+          "type": "national",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "label": "جامعات بقوانين خاصة",
+      "institutions": [
+        {
+          "id": "zewail",
+          "name": "جامعة العلوم والتكنولوجيا بمدينة زويل للعلوم والتكنولوجيا",
+          "nameEn": "Zewail City of Science and Technology",
+          "type": "special",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "international",
+      "label": "جامعات باتفاقيات دولية",
+      "institutions": [
+        {
+          "id": "auc",
+          "name": "الجامعة الأمريكية بالقاهرة",
+          "nameEn": "The American University in Cairo",
+          "type": "international",
+          "status": "active"
+        },
+        {
+          "id": "ejust",
+          "name": "الجامعة المصرية اليابانية للعلوم والتكنولوجيا",
+          "nameEn": "Egypt-Japan University of Science and Technology",
+          "type": "international",
+          "status": "active"
+        },
+        {
+          "id": "giu",
+          "name": "الجامعة الألمانية الدولية بالعاصمة الإدارية",
+          "nameEn": "German International University",
+          "type": "international",
+          "status": "active"
+        },
+        {
+          "id": "eslsca",
+          "name": "جامعة اسلسكا",
+          "nameEn": "ESLSCA University",
+          "type": "international",
+          "status": "active"
+        },
+        {
+          "id": "berlin-gouna",
+          "name": "جامعة برلين الألمانية بالجونة",
+          "nameEn": "German University in Cairo-related branch",
+          "type": "international",
+          "status": "active"
+        },
+        {
+          "id": "senghor",
+          "name": "جامعة سنجور",
+          "nameEn": "Senghor University",
+          "type": "international",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "framework",
+      "label": "جامعات باتفاقيات إطارية",
+      "institutions": [
+        {
+          "id": "aastmt",
+          "name": "الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري",
+          "nameEn": "Arab Academy for Science, Technology and Maritime Transport",
+          "type": "framework",
+          "status": "active"
+        },
+        {
+          "id": "aou",
+          "name": "الجامعة العربية المفتوحة",
+          "nameEn": "Arab Open University",
+          "type": "framework",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "foreign_branch",
+      "label": "أفرع جامعات أجنبية",
+      "institutions": [
+        {
+          "id": "canadian-upei",
+          "name": "مؤسسة الجامعات الكندية في مصر — فرع جامعة جزيرة الأمير إدوارد",
+          "nameEn": "Canadian Universities / UPEI branch",
+          "type": "foreign_branch",
+          "status": "active"
+        },
+        {
+          "id": "knowledge-coventry",
+          "name": "مؤسسة جامعات المعرفة الدولية — فرع جامعة كوفنتري",
+          "nameEn": "Knowledge Universities / Coventry branch",
+          "type": "foreign_branch",
+          "status": "active"
+        },
+        {
+          "id": "knowledge-nova",
+          "name": "مؤسسة جامعات المعرفة الدولية — فرع جامعة نوفا البرتغالية",
+          "nameEn": "Knowledge Universities / Nova branch",
+          "type": "foreign_branch",
+          "status": "active"
+        },
+        {
+          "id": "global-herts",
+          "name": "مؤسسة جلوبال — فرع جامعة هيرتفوردشاير",
+          "nameEn": "Global / Hertfordshire branch",
+          "type": "foreign_branch",
+          "status": "active"
+        },
+        {
+          "id": "europe-london",
+          "name": "مؤسسة الجامعات الأوروبية — فرع جامعة لندن",
+          "nameEn": "European Universities / London branch",
+          "type": "foreign_branch",
+          "status": "active"
+        },
+        {
+          "id": "europe-east-london",
+          "name": "مؤسسة الجامعات الأوروبية — فرع جامعة إيست لندن",
+          "nameEn": "European Universities / East London branch",
+          "type": "foreign_branch",
+          "status": "active"
+        },
+        {
+          "id": "europe-lancashire",
+          "name": "مؤسسة الجامعات الأوروبية — فرع جامعة وسط لانكشاير",
+          "nameEn": "European Universities / Central Lancashire branch",
+          "type": "foreign_branch",
+          "status": "active"
+        },
+        {
+          "id": "modern-kazan",
+          "name": "مؤسسة مودرن جروب — فرع جامعة كازان",
+          "nameEn": "Modern Group / Kazan branch",
+          "type": "foreign_branch",
+          "status": "active"
+        },
+        {
+          "id": "modern-spb",
+          "name": "مؤسسة مودرن جروب — فرع جامعة سان بطرسبرج",
+          "nameEn": "Modern Group / Saint Petersburg branch",
+          "type": "foreign_branch",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "technological",
+      "label": "الجامعات التكنولوجية",
+      "institutions": [
+        {
+          "id": "new-cairo-tech",
+          "name": "جامعة القاهرة الجديدة التكنولوجية",
+          "nameEn": "New Cairo Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "delta-tech",
+          "name": "جامعة الدلتا التكنولوجية",
+          "nameEn": "Delta Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "beni-suef-tech",
+          "name": "جامعة بني سويف التكنولوجية",
+          "nameEn": "Beni-Suef Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "new-assiut-tech",
+          "name": "جامعة أسيوط الجديدة التكنولوجية",
+          "nameEn": "New Assiut Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "borg-el-arab-tech",
+          "name": "جامعة برج العرب التكنولوجية",
+          "nameEn": "Borg El Arab Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "taiba-tech",
+          "name": "جامعة طيبة التكنولوجية",
+          "nameEn": "Taibah Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "october-tech",
+          "name": "جامعة السادس من أكتوبر التكنولوجية",
+          "nameEn": "6th of October Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "samanoud-tech",
+          "name": "جامعة سمنود التكنولوجية",
+          "nameEn": "Samanoud Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "east-portsaid-tech",
+          "name": "جامعة شرق بورسعيد التكنولوجية",
+          "nameEn": "East Port Said Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "helwan-tech",
+          "name": "جامعة حلوان التكنولوجية",
+          "nameEn": "Helwan Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "fayoum-tech",
+          "name": "جامعة الفيوم التكنولوجية",
+          "nameEn": "Fayoum Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "assiut-tech",
+          "name": "جامعة أسيوط التكنولوجية",
+          "nameEn": "Assiut Technological University",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "elswedy-tech",
+          "name": "جامعة السويدي للتكنولوجيا",
+          "nameEn": "Elsewedy University of Technology",
+          "type": "technological",
+          "status": "active"
+        },
+        {
+          "id": "saxony-tech",
+          "name": "جامعة ساكسوني مصر للتكنولوجيا",
+          "nameEn": "Saxony Egypt University of Technology",
+          "type": "technological",
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "government_academy",
+      "label": "أكاديميات حكومية",
+      "institutions": [
+        {
+          "id": "sadat-academy",
+          "name": "أكاديمية السادات للعلوم الإدارية",
+          "nameEn": "Sadat Academy for Management Sciences",
+          "type": "government_academy",
+          "status": "active"
+        }
+      ]
+    }
+  ],
+  "directoryNotes": {
+    "highInstitutes": {
+      "sourceCount": 182,
+      "included": false,
+      "reason": "The provided DOCX gives the count and partial names, not a complete exhaustive list."
+    },
+    "institutionFaculties": {
+      "included": false,
+      "reason": "The provided DOCX does not provide complete faculty lists for every institution; exact institution-specific faculty data must be seeded/verified separately."
+    }
+  },
+  "sourceNote": "Current institution choices are seeded from the Egyptian State Information Service / Ministry of Higher Education updated lists published in 2026; the supplied DOCX is used as a supporting architecture/source reference. Counts in official page text can differ from enumeration, so the enumerated names are preserved."
+}
