@@ -1,0 +1,19 @@
+{
+  "name": "Mortaqa",
+  "short_name": "Mortaqa",
+  "description": "Mortaqa Personal Learning OS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0F19",
+  "theme_color": "#0B0F19",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
