@@ -4,8 +4,8 @@
   "version": "5.2.0",
   "description": "Mortaqa 5.2 — Personal Learning OS + Firebase + CodeCraft AI",
   "engines": {
-    "node": ">=20"
-  },
+  "node": "24.x"
+ },
   "scripts": {
     "seed": "node scripts/seed-firestore.mjs",
     "bootstrap-admins": "node scripts/bootstrap-admins.mjs",
